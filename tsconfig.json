@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",                               /* Specify what module code is generated. */
+    "outDir": "dist",                                   /* Specify an output folder for all emitted files. */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    // 점진적으로 확장할때 이 옵션써서 , 작업 안된 js를 가져오자
+//    "allowJs": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["./node_modules"]
+}
